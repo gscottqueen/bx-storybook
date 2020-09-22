@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "build-storybook-docs": "build-storybook --docs"
   },
   "keywords": [],
   "author": "",
@@ -18,7 +19,12 @@
     "@storybook/addon-links": "^6.0.21",
     "@storybook/react": "^6.0.21",
     "babel-loader": "^8.1.0",
-    "react-is": "^16.13.1"
+    "react-is": "^16.13.1",
+    "storybook-design-token": "^0.7.8"
   },
-  "dependencies": {}
+  "dependencies": {
+    "bx-tokens": "ssh://git@github.com:gscottqueen/bx-tokens.git",
+    "hex-to-rgba": "^2.0.1",
+    "styled-components": "^5.2.0"
+  }
 }

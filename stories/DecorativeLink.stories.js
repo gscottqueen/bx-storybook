@@ -3,7 +3,7 @@ import { BxColorBlack } from "bx-tokens/js/bx_es_variables";
 import DecorativeLink from "./DecorativeLink.js";
 
 export default {
-  title: "DecorativeLink",
+  title: "Decorative Link",
   component: DecorativeLink,
   argTypes: {
     id: { control: "text" },

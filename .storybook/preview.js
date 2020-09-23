@@ -1,4 +1,5 @@
 import { addParameters } from '@storybook/react';
+import '../stories/utitlies/bixalizer.css'
 
 const cssReq = require.context(
   '!!raw-loader! ../../../node_modules/bx-tokens/storybook',

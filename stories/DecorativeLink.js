@@ -1,32 +1,9 @@
-import React, { useRef, useState, useEffect } from "react";
+import React from "react";
 import PropTypes from "prop-types";
 import { BxColorBlack } from "bx-tokens/js/bx_es_variables";
 import hexToRgba from "hex-to-rgba";
 import styled from "styled-components";
-
-function useHover() {
-  const [value, setValue] = useState(false);
-
-  const ref = useRef(null);
-
-  const handleMouseOver = () => setValue(true);
-  const handleMouseOut = () => setValue(false);
-
-  useEffect(() => {
-    const node = ref.current;
-    if (node) {
-      node.addEventListener("mouseover", handleMouseOver);
-      node.addEventListener("mouseout", handleMouseOut);
-
-      return () => {
-        node.removeEventListener("mouseover", handleMouseOver);
-        node.removeEventListener("mouseout", handleMouseOut);
-      };
-    }
-  });
-
-  return [ref, value];
-}
+import useHover from "./utitlies/useHover"
 
 // build rgba value
 const underlineColour = ({ lineColor, opacity }) => {

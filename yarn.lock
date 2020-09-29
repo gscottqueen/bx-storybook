@@ -3420,9 +3420,9 @@ builtin-status-codes@^3.0.0:
   resolved "https://registry.yarnpkg.com/builtin-status-codes/-/builtin-status-codes-3.0.0.tgz#85982878e21b98e1c66425e03d0174788f569ee8"
   integrity sha1-hZgoeOIbmOHGZCXgPQF0eI9Wnug=
 
-"bx-tokens@ssh://git@github.com:gscottqueen/bx-tokens.git":
+"bx-tokens@ssh://git@bitbucket.org:bixal/bx-tokens.git":
   version "0.1.0"
-  resolved "ssh://git@github.com:gscottqueen/bx-tokens.git#b6f305660ab4cbb49f031759c1867a200d6c3749"
+  resolved "ssh://git@bitbucket.org:bixal/bx-tokens.git#6821f04f0140bc60461627c02be4b3aecbe58487"
 
 bytes@3.1.0:
   version "3.1.0"

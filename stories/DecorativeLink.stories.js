@@ -12,6 +12,7 @@ export default {
     href: { control: "text" },
     action: { control: "boolean" },
     children: { control: "data" },
+    onClick: { action: "clicked" },
   },
 };
 
